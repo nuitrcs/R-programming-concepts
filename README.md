@@ -22,4 +22,8 @@ This workshop is for those who are new R users and new to programming.  We cover
 
 [How to set up R and RStudio](https://sites.northwestern.edu/researchcomputing/resources/r-and-rstudio/)
 
+# Further resources:
 
+[YaRrr! The Pirate’s Guide to R by Nathaniel D. Phillips](https://bookdown.org/ndphillips/YaRrr/)
+
+[RCDS consult form](bit.ly/rcdsconsult)

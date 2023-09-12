@@ -18,6 +18,7 @@ names(evp)
 evp$subject_race
 evp$subject_sex
 
+
 table(evp$vehicle_make) # operations on vectors
 
 
@@ -66,8 +67,11 @@ evp$vehicle_age_in_2023 <- 2023 - evp$vehicle_year
 View(evp)
 names(evp)
 
-# simple histogram
+# simple histogram 
 hist(evp$vehicle_age_in_2023)
+
+# simple statistics
+mean(evp$vehicle_age_in_2023, na.rm=TRUE)
 
 
 

@@ -1,5 +1,8 @@
 # Using Functions
 
+# reference cheat sheet with common built-in R functions -
+# https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf
+
 
 # A few common functions ----
 

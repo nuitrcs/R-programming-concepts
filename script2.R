@@ -9,17 +9,10 @@
 
 # Character AKA string (of characters) AKA text ----
 # Surround with matching quotes
-"christina"
-'Christina'
+"ritika"
+'Ritika'
 "This is a whole sentence"
 "Can't you get more creative?"  # use " outside, when ' is inside
-
-# escaping quotes: \ escapes the next character (treat is as a normal character)
-"She said, \"I don't\""
-
-# cat() is used to do a print display (vs. the raw value): 
-# we don't use it much, but if you want to see clearer representation of a string
-cat("She said, \"I don't\"")
 
 "" # called an empty string
 "    "  # NOT an empty string -- there are spaces in it
@@ -32,8 +25,6 @@ cat("She said, \"I don't\"")
 
 # special characters: \n
 "This is a whole sentence.\nThis is a sentence on a different line."
-
-cat("This is a whole sentence.\nThis is a sentence on a different line.")
 
 
 # special characters: \t
