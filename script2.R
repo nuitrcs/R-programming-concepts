@@ -30,7 +30,6 @@
 # special characters: \t
 "\tThere is a tab at the start of this line."
 
-cat("\tThere is a tab at the start of this line.")
 
 # \t is mostly used if you have a tab-delimited file and need to tell R that there are tabs
 

@@ -76,11 +76,3 @@ mean(evp$vehicle_age_in_2023, na.rm=TRUE)
 
 
 
-
-
-
-
-
-
-
-

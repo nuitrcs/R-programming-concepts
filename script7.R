@@ -19,7 +19,7 @@ ggplot2::ggplot() # explicit function call
 
 
 # Print version information about R, the OS and attached or loaded packages.
-sessionInfo(). # helpful for troubleshooting
+sessionInfo()  # helpful for troubleshooting
 
 
 
