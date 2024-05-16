@@ -26,4 +26,4 @@ This workshop is for those who are new R users and new to programming.  We cover
 
 [YaRrr! The Pirate’s Guide to R by Nathaniel D. Phillips](https://bookdown.org/ndphillips/YaRrr/)
 
-[RCDS consult form](https://app.smartsheet.com/b/form/2f2ec327e6164f83b588b7bbe2e2b56f)
+[Form where you can submit free consultation requests with the Data Science, Statistics, and Visualization team](https://app.smartsheet.com/b/form/2f2ec327e6164f83b588b7bbe2e2b56f)
