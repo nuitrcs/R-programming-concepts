@@ -100,7 +100,6 @@ sort(c("zebra", "Zebra", "kangaroo", "cat", "lion"))  # we'll get to what c() is
 
 3 == "3"  # huh?  what's happening here
 
-# From the documentation:
 # If the two arguments are atomic vectors of different types, 
 # one is coerced to the type of the other, the (decreasing) order 
 # of precedence being character, complex, numeric, integer, logical and raw.
