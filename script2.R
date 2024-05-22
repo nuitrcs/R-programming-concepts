@@ -39,7 +39,7 @@
 TRUE
 FALSE
 
-# see how the color above is different?  These are special symbols.  So are T and F
+# notice how the color of TRUE and FALSE is different than the color for other lines and commands. This is because they are special symbols.  So are T and F
 
 T
 F
