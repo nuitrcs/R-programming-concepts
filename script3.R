@@ -14,6 +14,8 @@ myName <- "Ritika"
 
 # these are all different!
 
+# In general, you want variable names to be descriptive, etc.
+
 # Look at variables in the Environment tab over there ----->
 
 my_name <- 3
