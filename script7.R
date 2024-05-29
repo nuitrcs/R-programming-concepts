@@ -24,7 +24,7 @@ sessionInfo()  # helpful for troubleshooting
 
 
 # Using R help to search documentation
-?lm
-help(lm)
+?aes
+help(aes)
 
 # use help from the GUI
