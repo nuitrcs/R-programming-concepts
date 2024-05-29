@@ -46,12 +46,27 @@ F
 
 # Special values ----
 
-# missing: replaces any individual value
+# ‘Not Available’ / Missing Values
 NA
+class(NA)
+NA > 1
+# NA is a logical value that, when evaluated in an expression, returns NA
 
-# invalid: only used by itself
+# The Null Object
 NULL
+class(NULL)
+NULL > 1
+# NULL doesn't give a response when evaluated in an expression
 
+c(1, NA, NULL)
+# NULL is not allowed in a vector (because it's an object type of its own)
+# NA can exist in a vector
+
+list(1, NA, NULL)
+# lists can have NULL since they can hold more complex objects
+
+# You can find out more with ?NA and ?NULL
+# You can read more here: https://www.r-bloggers.com/2010/04/r-na-vs-null/
 
 # Testing data types ----
 
@@ -65,6 +80,12 @@ is.na(4)
 is.na(NA)
 is.na("NA")
 
+class("3")
+typeof("3")
+class(3)
+typeof(3)
+class(TRUE)
+typeof(TRUE)
 
 # Converting data types ----
 
