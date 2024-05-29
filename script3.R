@@ -14,7 +14,12 @@ myName <- "Ritika"
 
 # these are all different!
 
-# In general, you want variable names to be descriptive, etc.
+# Good practices for variable names:
+# 1. Be descriptive: Use meaningful names that clearly describe the content or purpose of the variable.
+#    Example: 'total_sales', 'average_temperature'
+# 2. Use consistent naming conventions: Choose a naming convention and stick to it throughout your code.
+#    Common conventions include snake_case, camelCase, and dot.notation. Avoid mixing them.
+# 3. Avoid reserved words and function names: Do not use names that are reserved for R's functions or keywords.
 
 # Look at variables in the Environment tab over there ----->
 
@@ -100,11 +105,18 @@ my_data
 
 
 # "Lists" in R can hold multiple types of things ----
+# A list can even hold other lists!
 
 my_list <- list(3, TRUE, c(2, 3, 5, 7, 11), "Strongly agree")
 my_list
 
+# Accessing elements in a list:
+# Use single square brackets [ ] to access elements as sub-lists.
+class(my_list[4])
+# Use double square brackets [[ ]] to access the actual elements.
+class(my_list[[4]])
 # if you see [[ ]], you probably have a list
+class(my_list[[4]][1])
 
 
 # TRY IT ----
@@ -144,6 +156,9 @@ val2/val1
 (val1 > 10) | (val2 > 10)
 
 # vectorized operations
+# they allow you to perform operations on entire vectors at once,
+# rather than looping through each element individually
+# Can make code more efficient
 
 ages > 10
 ages > 30
